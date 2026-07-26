@@ -3,6 +3,10 @@
     padding : 0;
     background-color:  rgb(233, 223, 205);;
 }
+@font-face {
+    font-family: "Rawrote";
+    src: url("Rawrote Demo.ttf") format("truetype");
+}
 .cats{
     height:100vh;
     display: flex;

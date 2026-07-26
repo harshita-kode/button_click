@@ -1,7 +1,10 @@
 *{
     margin: 0;
     padding : 0;
-    background-color:  rgb(233, 223, 205);;
+    box-sizing: border-box;
+}
+body{
+    background-color:  rgb(233, 223, 205);
 }
 @font-face {
     font-family: "Rawrote";
@@ -9,6 +12,7 @@
 }
 .cats{
     height:100vh;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -23,7 +27,7 @@
 .cats img{
     height: 500px;
 }
-@media (max-width: 830px){
+@media (max-width: 900px){
     .heading{
         font-size: 34px;
         text-align: center;

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Click Button</title>
+</head>
+
+<body>
+    <div class="button-box">
+        <a href="/cats.html" style="text-decoration: none; color: inherit;">
+            <div class="button crayon-border">Click this!(try me)</div>
+        </a>
+        <svg style="display: none;">
+            <defs>
+                <filter id="crayon-texture">
+                    <!-- 1. Generate random noise to roughen the edges -->
+                    <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="4" result="noise" />
+                    <!-- 2. Distort the original shape using the noise map -->
+                    <feDisplacementMap in="SourceGraphic" in2="noise" scale="4" xChannelSelector="R"
+                        yChannelSelector="G" />
+                </filter>
+            </defs>
+        </svg>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

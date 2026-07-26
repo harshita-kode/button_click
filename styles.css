@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(233, 223, 205);
+}
+.button-box {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: #cd4a4c;
+}
+
+.button {
+  cursor: pointer;  
+  border: 4px solid #cd4a4c;
+  padding: 20px;
+  font-family: "Rawrote Demo";
+  font-size: 36px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.40);
+  position:absolute;
+  transition: top .15s ease,
+                left .15s ease;
+}
+.crayon-border{
+    border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+    filter: url(#crayon-texture);
+}
+.position{
+    position: absolute;
+    top: 87vh;
+    left: 83vw;
+}

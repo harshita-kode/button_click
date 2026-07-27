@@ -8,7 +8,7 @@ body{
 }
 @font-face {
     font-family: "Rawrote";
-    src: url("fonts/rawrote-demo.ttf") format("truetype");
+    src: url("../fonts/rawrote-demo.ttf") format("truetype");
 }
 .cats{
     height:100vh;

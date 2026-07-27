@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: "Rawrote";
-    src: url("../fonts/rawrote-demo.ttf") format("truetype");
+    src: url("./fonts/rawrote-demo.ttf") format("truetype");
 }
 body{
     background-color: rgb(233, 223, 205);

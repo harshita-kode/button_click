@@ -14,7 +14,7 @@ button.addEventListener('mouseenter', ()=>{
 });
 
 button.addEventListener('click', ()=>{
-    let audio = new Audio('./assets/oof.mp3');
+    let audio = new Audio('assets/oof.mp3');
     audio.play();
 });
 
